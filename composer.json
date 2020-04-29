@@ -92,6 +92,7 @@
             "php artisan view:clear",
             "php artisan clear-compiled",
             "php artisan package:discover"
+            "chmod -R 777 public/"
         ],
         "post-update-cmd": [
             "php artisan config:clear",
@@ -105,6 +106,7 @@
             "php -r \"copy('.env.example', '.env');\"",
             "php artisan key:generate"
         ]
+        
     },
     "config": {
         "preferred-install": "dist",

@@ -130,20 +130,6 @@ Now visit and login: [http://localhost:8000](http://localhost:8000) \
 username: admin\
 password: demo123
 
-**Demo(Community Edition)**\
-website url: http://sms.hrshadhin.me \
-app login: http://sms.hrshadhin.me/login \
-username: admin\
-password: demo123
-
-**Demo(Enterprise Edition)**\
-website url: http://cloudschoolbd.com \
-app login: http://cloudschoolbd.com/login \
-username: admin\
-password: demo123\
-username: superadmin\
-password: super99
-
 **N.B:**
 - For sms and email processing you need to run laravel queue worker. `bin` folder has supervisor config for start queue worker with supervisor.
 
@@ -160,10 +146,3 @@ password: super99
 <img src="./screenshot/marksheet.jpg" >
 <img src="./screenshot/home.png" >
 
-# Security Vulnerabilities
-
-If you discover a security vulnerability within SMS, please send an e-mail to H.R. Shadhin via [dev@hrshadhin.me](mailto:dev@hrshadhin.me). All security vulnerabilities will be promptly addressed.
-
-# License
-
-SMS is open-sourced software licensed under the AGPL-3.0 license. Frameworks and libraries has it own licensed.
